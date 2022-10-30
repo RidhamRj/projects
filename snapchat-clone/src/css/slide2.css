@@ -1,0 +1,94 @@
+.Slide2{
+    display: flex;
+    padding: 0 100px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+}
+
+.Slide2 .infiniteVideo video{
+    border-radius: 20px;
+}
+.Slide2 .video-content{
+    margin-left: 70px;
+    margin-top: 100px;
+
+}
+.Slide2 .video-content h2{
+    font-size: 62px;
+    line-height: 72px;
+}
+
+.Slide2 select{
+    padding: 20px 44px 20px 32px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    text-align: start;
+    margin: 0px 18px 20px 0px;
+}
+.Slide2 option{
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+    padding-top: 10px;
+}
+.Slide2 form{
+    flex-wrap: wrap;
+    display: flex;
+}
+.Slide2 input{
+    resize: none;
+    width: 250.8px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    height: 60.61px;
+    align-items: center;
+    text-align: start;
+    padding-left: 40px;
+    justify-content: center;
+    justify-items: center;
+    font-size: 18px;
+}
+
+.Slide2 button{
+    margin-left: 10px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    background-color: black;
+    font-weight: 600;
+    /* font: white; */
+    color: white;
+    transition: .3s ease;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Slide2 button:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 6px 100px 1px rgba(0, 0, 0, 0.585);
+    
+}
+.Slide2 .video-content .hoverText{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.Slide2 .video-content .hoverText-2{
+    margin-top: 15px;
+}
+.Slide2 .video-content u{
+    cursor: pointer;
+}
+
+.inactive{
+    display: none;
+    /* color: transparent; */
+}
+/* .Slide2 button:hover + .inactive{
+    display: block;
+    color: black;
+} */
+.active{
+    display: block;
+}

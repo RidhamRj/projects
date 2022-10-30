@@ -1,0 +1,94 @@
+.Slide3{
+    /* margin-top: 200px; */
+    /* margin-left: 100px; */
+    padding: 0 100px;
+    display: flex;
+}
+.textContent3{
+    margin-top: 100px;
+}
+.videoCont{
+    margin-top: -50px;
+    margin-right: 10px;
+}
+.videoCont video{
+    border-radius: 20px;
+}
+.Slide3 select{
+    padding: 20px 44px 20px 32px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    text-align: start;
+    margin: 0px 18px 20px 0px;
+}
+.Slide3 option{
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+    padding-top: 10px;
+}
+.Slide3 form{
+    flex-wrap: wrap;
+    display: flex;
+}
+.Slide3 input{
+    resize: none;
+    width: 250.8px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    height: 60.61px;
+    align-items: center;
+    text-align: start;
+    padding-left: 40px;
+    justify-content: center;
+    justify-items: center;
+    font-size: 18px;
+}
+
+.Slide3 button{
+    margin-left: 10px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    background-color: black;
+    font-weight: 600;
+    /* font: white; */
+    color: white;
+    transition: .3s ease;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Slide3 button:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 6px 100px 1px rgba(0, 0, 0, 0.585);
+    
+}
+.Slide3 .video-content .hoverText{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.Slide3 .video-content .hoverText-2{
+    margin-top: 15px;
+}
+.Slide3 .video-content u{
+    cursor: pointer;
+}
+
+.inactive{
+    display: none;
+    /* color: transparent; */
+}
+/* .Slide2 button:hover + .inactive{
+    display: block;
+    color: black;
+} */
+.active{
+    display: block;
+}
+.Slide3 h2{
+    font-size: 62px;
+    line-height: 72px;
+}
